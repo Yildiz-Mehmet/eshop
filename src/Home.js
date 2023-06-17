@@ -22,7 +22,7 @@ const Home = () => {
             <Product />
           </div>
           <div className="home__row">
-            <product />
+            <Product />
           </div>
         </div>
       </div>
