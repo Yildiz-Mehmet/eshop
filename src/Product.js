@@ -6,8 +6,14 @@ const Product = () => {
     <div>
       <div className="product">
         <div className="product__info">
-          <p>Title</p>
-          <p className="product__price">$30</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
+            facilis!
+          </p>
+          <p className="product__price">
+            <small>$</small>
+            <strong>30</strong>
+          </p>
           <div className="product__rating"> ⭐ ⭐</div>
         </div>
         <img
