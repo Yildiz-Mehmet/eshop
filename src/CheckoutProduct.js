@@ -9,7 +9,7 @@ const CheckoutProduct = () => {
         alt=""
         className="checkoutProduct__image"
       />
-      <div className=" product__info">
+      <div className=" checkoutProduct__info">
         <p className="checkoutProduct__title">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
           similique dolorum harum voluptatem vero aliquid quasi quidem
@@ -20,7 +20,7 @@ const CheckoutProduct = () => {
           <strong>20</strong>
         </p>
         <div className="checkoutProduct__rating">**</div>
-        <button></button>
+        <button>Remove from Basket</button>
       </div>
     </div>
   );
