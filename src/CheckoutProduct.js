@@ -1,26 +1,26 @@
 import React from "react";
-import ".CheckoutProduct.css";
+import "./CheckoutProduct.css";
 
 const CheckoutProduct = () => {
   return (
-    <div>
-      <div className="product">
-        <div className="product__info">
-          <p>{title}</p>
-          <p className="product__price">
-            <small>$</small>
-            <strong>{price}</strong>
-          </p>
-          <div className="product__rating">
-            {Array(rating)
-              .fill()
-              .map((_, i) => (
-                <p>⭐</p>
-              ))}
-          </div>
-        </div>
-        <img src={image} alt="product-image" />
-        <button>Add to Basket</button>
+    <div className="checkoutProduct">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGIAuGHhlkbvAuSaoIKucObmAXCFLlJjKzdw&usqp=CAU"
+        alt=""
+        className="checkoutProduct__image"
+      />
+      <div className=" product__info">
+        <p className="checkoutProduct__title">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          similique dolorum harum voluptatem vero aliquid quasi quidem
+          reprehenderit vel eveniet?
+        </p>
+        <p className="checkoutProduct__price">
+          <small>$</small>
+          <strong>20</strong>
+        </p>
+        <div className="checkoutProduct__rating">**</div>
+        <button></button>
       </div>
     </div>
   );
